@@ -7,7 +7,6 @@ from pymir import Energy
 from pymir import Onsets
 
 import matplotlib.pyplot as plt
-
 import numpy as np
 
 from pymir import Onsets

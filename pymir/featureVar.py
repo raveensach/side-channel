@@ -15,7 +15,7 @@ from scipy.stats import skew
 
 wavData = AudioFile.open("Voice_005.wav")
 
-fixedFrames = wavData.frames(8830)
+fixedFrames = wavData.frames(8824)
 windowFunction=np.hamming
 fixedFrames=wavData.frames(8830,windowFunction)
 
@@ -31,3 +31,4 @@ np.savetxt("variance.csv", vr, delimiter=",")
 
 print(type(fixedFrames))
 print(len(fixedFrames))
+
